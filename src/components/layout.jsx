@@ -23,7 +23,7 @@ import Theme from "../components/theme"
 import "../assets/scss/style.scss"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
 // import Consent from './Consent'
-// import Install from './install-discount'
+import Install from './install-discount'
 // 
 // import { BiLeftArrow } from "react-icons/bi"
 import { navigate } from "gatsby";
@@ -115,10 +115,6 @@ export function Layout({ children }) {
 30% OFF CODE: <span style={{color:'#FA02B7', fontWeight:'bold'}}>LoveTheNight</span>
 </div> */}
 
-<div className="home-posts" style={{display:'flex', justifyContent:'center', border:'0px solid red', maxWidth:'', margin:'0 auto' }}>
-
-
-<div id="installer3" className="post-card" style={{display:'flex', justifyContent:'center', alignItems:'center', zIndex:'0', borderRadius:'8px',}}>
 
 
 
@@ -127,18 +123,14 @@ export function Layout({ children }) {
 
 
 
-  {/* <Install /> */}
+
+  <Install />
 
 
 
 	
 
     
-
-</div>
-
-
-</div>
 
 
 

@@ -354,8 +354,11 @@ outline-color: var(--primary-color); */
   box-shadow: var(--shadow);
 }
 
+
+/* .CookieConsent div{margin:0 !important;} */
+
 /* #sidebarMenu:before{
-  content: ();
+  content: ( fff );
   width:100vw;
   height:100vh;
   position:fixed;
@@ -372,11 +375,11 @@ outline-color: var(--primary-color); */
   backdrop-filter: blur(4px);
   border-radius:12px;
   border:1px solid #000;
-} */
+}
 
 
-/* #sidebarMenu:before{ position: fixed;
-content:();
+#sidebarMenu:before{ position: fixed;
+content:(  ddd );
 z-index: 3;
 top: 0;
 left: 0;
@@ -399,7 +402,7 @@ height:100vh;
 
 
 main{min-height: 100vh; height:100% !important;
-padding-bottom: 2rem;}
+}
 .zoomer{animation: zoomer 1s forwards;
   animation-delay: 4s;}
   
@@ -531,13 +534,14 @@ p{margin-bottom: 1rem;}
 
 @media (display-mode: standalone) {
   /* All installed PWAs */
-  #installer{display: none !important; border:10px solid yellow !important;}
+  #installer{display: none !important; border:0px solid yellow !important;}
 }
 	
 @media (hover: hover) {
 /* #installer{display: none !important;} */
 }
 
+/* input[type=checkbox]:checked ~ .sidebarIconToggle > #installer3{border:10px solid red !important; opacity:.5;} */
 
 
 footer{background-color: #000; padding:.1rem 0rem; margin:0; display:flex; justify-content: center; color:#fff; }
@@ -845,6 +849,9 @@ filter: drop-shadow(1px 1px 1px var(--primary));;
 
 
 
+
+
+
 .sidebarIconToggle span1{
   content:(" ");
   border:1px solid var(--primary);
@@ -964,7 +971,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .popper{
   animation: move;
   animation-duration: 0.7s;
-  animation-delay:5s;
+  animation-delay:3s;
   opacity: 0;
   animation-fill-mode: forwards;
 }
