@@ -1562,6 +1562,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/lobster-two@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/lobster-two/-/lobster-two-4.5.0.tgz#776155fc39b67f198b0c6a22959f7145f131e979"
+  integrity sha512-Uxl4hKIDxNzgYVEtKS6ezII9hY+YHSjcbfaRf28fIX7X9nlmz3gCo/cj0cf3pVpWrxEPR6N9l+QBtIXLCSvVEA==
+
 "@gatsby-contrib/gatsby-plugin-elasticlunr-search@^3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@gatsby-contrib/gatsby-plugin-elasticlunr-search/-/gatsby-plugin-elasticlunr-search-3.0.2.tgz#f60462f5f6283af170a22b28e2f159dd936f6a7b"

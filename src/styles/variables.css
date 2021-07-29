@@ -1,7 +1,7 @@
 :root {
   /* tokens */
   /* font-family */
-  --font-body: "Hammersmith One", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+  --font-body: "Lobster Two", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
   /* palette */
@@ -69,7 +69,7 @@
   --text-color: #ccc;
   --text-color-secondary: var(--white-50);
   --text-color-inverted: var(--white);
-  --primary-color:fff;
+  --primary-color:#FFA700;
   /* size */
   --text-display: var(--text-2xl);
   --text-prose: var(--text-md);

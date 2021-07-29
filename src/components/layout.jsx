@@ -4,6 +4,7 @@ import { SkipNavContent, SkipNavLink } from "./skip-nav"
 import { Footer } from "./footer"
 import { Seo } from "./seo"
 import 'fontsource-hammersmith-one'
+import '@fontsource/lobster-two'
 import { Link } from 'gatsby-plugin-modal-routing-3'
 import { ModalRoutingContext } from 'gatsby-plugin-modal-routing-3'
 import { AiOutlineClose } from "react-icons/ai"

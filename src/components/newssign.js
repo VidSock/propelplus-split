@@ -56,9 +56,9 @@ const NewsletterPage = () => (
 <br />
 
             
-              <span style={{fontSize:'120%'}}><strong>Quick Quote</strong></span><br />
+              <span style={{fontSize:'120%'}}><strong>Get A Quick Quote</strong></span><br />
               
-              <span style={{fontSize:'85%'}}>send me your email for an instant quote</span><br /><br />
+              <span style={{fontSize:'85%'}}>enter your email to get an instant quote</span><br /><br />
 
              <div className="signbox" style={{display:'flex',}}>
 
@@ -89,7 +89,7 @@ const NewsletterPage = () => (
               type="submit"
               style={{marginTop:'-8px'}}
             >
-              Join Now{" "}
+              Get Quote{" "}
               <span className="icon -right">
                 <RiSendPlane2Line />
               </span>

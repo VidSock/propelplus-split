@@ -5,10 +5,10 @@ const theme = {
   colors: {
     ...defaultColors,
     text: "#111",
-    background: "#fff",
+    background: "#eee",
     primary: "var(--primary)",
-    accent: "#fff",
-    muted: "rgba(0, 0, 0, 0.7)",
+    accent: "#222",
+    muted: "rgba(0, 0, 0, 0.79)",
     cardBg: "linear-gradient(180deg, #333 1%, #111 80%)",
     borderColor: "#444",
     labelText: "#777",
